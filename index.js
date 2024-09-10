@@ -40,7 +40,7 @@ async function getCategorys(){
   const response = await fetch("http://localhost:5678/api/categories");
   return await response.json();
 }
-
+//yo
 // fonction qui crée un bouton pour chaque categories qui se trouvent dans le fetch
 async function previewCategoryBtn(){
   const categorys = await getCategorys();
